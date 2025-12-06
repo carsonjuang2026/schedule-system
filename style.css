@@ -1,0 +1,72 @@
+body {
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* ================================
+   🔹 資料夾與檔案列表樣式
+   ================================ */
+#list {
+    margin-top: 10px;
+}
+
+.item {
+    padding: 12px 15px;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.item:hover {
+    background-color: #e9f3ff;
+}
+
+.link {
+    color: #0078ff;
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+/* 🔹 檔案下載連結 */
+a {
+    color: #0078ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ================================
+   🔹 按鈕（如果未來需要新增）
+   ================================ */
+button {
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005fcc;
+}
+
+/* ================================
+   🔹 讓整個畫面間距更舒服
+   ================================ */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
